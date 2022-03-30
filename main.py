@@ -1,6 +1,6 @@
 import time
 from services.apiCalls import setStatus
-import multiprocessing as mp
+import multiprocess as mp
 from loops.animations import *
 
 
@@ -15,7 +15,7 @@ def loop(process_):
             time.sleep(.5)
 
             percent, loading_string = globals()[process_](percent)
-            setStatus(loading_string, "idle")
+            setStatus(loading_string, "online")
     except:
         print("process does not exist")
 
