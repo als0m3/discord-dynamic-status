@@ -13,6 +13,7 @@ The program let you have dynamic status on discord
 #### Connect to Discord
 
 You must give the program access to your Discord account.
+
 To do so, you can go to **Discord Web** and go to the **local storage** to get your **token**.
 
 Once you got your **token**, go to the `services/apiCall.py` file and replace `YOUR_TOKEN` with your **discord token**.
@@ -21,10 +22,10 @@ Once you got your **token**, go to the `services/apiCall.py` file and replace `Y
 
 ##### Using python3
 
-Install all the dependencies
+Install all the dependencies  
 `pip install -r requirements.txt`
 
-Start the program
+Start the program  
 `python3 main.py`
 
 ##### Using docker-compose
@@ -44,5 +45,5 @@ For now, only the **spaceInvader** animation is available...
 
 ## Contributing
 
-Feel free to use the program and make it grow.
+Feel free to use the program and make it grow.  
 And share your custom animations 😃
