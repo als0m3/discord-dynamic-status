@@ -1,4 +1,8 @@
+<img src="assets/demo.gif" width="415">
+
 # Discord Dynamic Status
+
+---
 
 ## Description
 
@@ -6,27 +10,39 @@ The program let you have dynamic status on discord
 
 ## Getting started
 
-To use the program, you need to install two python library:
+#### Connect to Discord
 
-- requests
-- multiprocessing
+You must give the program access to your Discord account.
+To do so, you can go to **Discord Web** and go to the **local storage** to get your **token**.
 
-Then to give access to the program your Discord account
-You need to go in the file `services/apiCalls.py` and replace `YOUR_TOKEN_HERE` (l.5) with your discord token
+Once you got your **token**, go to the `services/apiCall.py` file and replace `YOUR_TOKEN` with your **discord token**.
+
+#### Start the program
+
+##### Using python3
+
+Install all the dependencies
+`pip install -r requirements.txt`
+
+Start the program
+`python3 main.py`
+
+##### Using docker-compose
+
+Start the docker-compose.yml
+`docker-compose up`
 
 ## Usage
 
-Run `python3 main.py`
-
-To change animation, you need to write the name of the function on the standard input
+For now, only the **spaceInvader** animation is available...
 
 ## Roadmap
 
-[ ] Dockerize the program
-[ ] Connect some features with other APIs (weather, etc)
-[ ] Create new animations
+- [x] Dockerize the program
+- [ ] Change animations inside the docker
+- [ ] Create new animations
 
 ## Contributing
 
-Feel free to use the programm and to upgrade it
-And share your custom animations :)
+Feel free to use the program and make it grow.
+And share your custom animations 😃
