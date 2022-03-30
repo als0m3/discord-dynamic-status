@@ -2,7 +2,7 @@ import json
 import requests
 
 DISCORD_API_URL = "https://discord.com/api/v9/users/@me/settings"
-USER_TOKEN = "MzYwNDMyNDkwMTYwMDYyNDY2.YkGSwA._5uCxU40CFnIfg65ZOTBNefJHfg"
+USER_TOKEN = "YOUR_TOKEN"
 
 
 def setStatus(text, status):
