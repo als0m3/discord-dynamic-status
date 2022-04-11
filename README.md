@@ -16,11 +16,7 @@ This is a legacy experiment using a user-account token and a private settings en
 
 #### Connect to Discord
 
-You must give the program access to your Discord account.
-
-To do so, you can go to **Discord Web** and go to the **local storage** to get your **token**.
-
-Once you got your **token**, go to the `services/apiCall.py` file and replace `YOUR_TOKEN` with your **discord token**.
+Provide `DISCORD_USER_TOKEN` through your shell or secret manager. The process reads it from its environment; Docker Compose forwards the same variable. Do not paste it into a source file, a command saved in shell history, or a public issue. If an old token was committed, revoke it with Discord before using a replacement.
 
 #### Start the program
 

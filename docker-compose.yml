@@ -6,3 +6,6 @@ services:
     build:
       context: ./
       dockerfile: ./Dockerfile
+
+    environment:
+      DISCORD_USER_TOKEN: ${DISCORD_USER_TOKEN:?Set DISCORD_USER_TOKEN in your environment}
