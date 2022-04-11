@@ -8,6 +8,10 @@
 
 The program let you have dynamic status on discord
 
+## Maintenance status
+
+This is a legacy experiment using a user-account token and a private settings endpoint. API compatibility and permitted usage must be reviewed before running it. Do not paste real tokens into source code or public issues. Dependency updates alone do not validate this integration.
+
 ## Getting started
 
 #### Connect to Discord
